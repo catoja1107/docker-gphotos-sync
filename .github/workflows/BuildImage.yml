@@ -3,7 +3,7 @@ name: Build Image
 on: [push, workflow_dispatch]
 
 env:
-  ENDPOINT: "rix1337/docker-gphotos-sync"
+  ENDPOINT: "catoja1107/docker-gphotos-sync"
 
 jobs:
   build:
@@ -16,4 +16,4 @@ jobs:
           password: "${{ secrets.DOCKERPASS }}"
           image_name: "${{ env.ENDPOINT }}"
           image_tag: latest
-          stages_image_name: "rix1337/cache-gphotos-sync-latest"
+          stages_image_name: "catoja1107/cache-gphotos-sync-latest"
