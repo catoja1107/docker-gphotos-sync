@@ -1,5 +1,5 @@
 FROM ghcr.io/linuxserver/baseimage-alpine:3.15
-MAINTAINER rix1337
+MAINTAINER catoja1107
 
 # volumes
 RUN mkdir -p /root/.config /config
