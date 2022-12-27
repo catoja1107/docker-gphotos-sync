@@ -5,4 +5,4 @@ services:
         volumes:
             - '/path/to/config/:/config:rw'
             - '/path/to/storage/:/storage:rw'
-        image: rix1337/docker-gphotos-sync
+        image: catoja1107/docker-gphotos-sync
