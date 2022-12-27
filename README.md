@@ -14,7 +14,7 @@ docker run -d \
   --name="GooglePhotosSync" \
   -v /path/to/config/:/config:rw \
   -v /path/to/storage/:/storage:rw \
-  rix1337/docker-gphotos-sync
+  catoja1107/docker-gphotos-sync
   ```
 
 
